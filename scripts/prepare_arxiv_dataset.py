@@ -6,8 +6,8 @@ download the corresponding arXiv PDFs, and save abstracts and a CSV manifest.
 Expected metadata format: JSON Lines (one JSON object per line), as used by
 the common arXiv Kaggle metadata snapshot.
 
-Example:
-    python prepare_arxiv_dataset.py dataset/metadata/arxiv-metadata-oai-snapshot.json `
+Example (PowerShell):
+    python scripts/prepare_arxiv_dataset.py dataset/metadata/arxiv-metadata-oai-snapshot.json `
         --output-dir dataset `
         --papers 25 `
         --categories cs.CL cs.AI cs.LG cs.CV
